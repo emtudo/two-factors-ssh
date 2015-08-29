@@ -20,8 +20,8 @@ fi
 USUARIO=`whoami`;
 SECRET="123123";
 
-VALID_TOKEN="15";
-#VALID_TOKEN=`curl http://asterisk.reis/api/sms/sendtoken/6`
+#Seu webservice aqui
+VALID_TOKEN=`curl http://asterisk.reis/api/sms/sendtoken/6`
 
 TAMANHO=${#VALID_TOKEN};
 NO_TOKEN="-";
