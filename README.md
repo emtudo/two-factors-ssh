@@ -1,4 +1,4 @@
-[Vídeo tutorial](https://www.youtube.com/watch?v=kw2Uy_4rb5Y)
+[Vídeo tutorial](http://youtu.be/W3o4VlEy2aY)
 
 #Fonte:
 
