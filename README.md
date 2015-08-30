@@ -12,7 +12,7 @@ control_c () {
 
 trap control_c INT HUP TERM
 
-if ! [[ $(who am i) =~ \(([a-z]+\.[a-z.]+\))$ || $(who am i) =~ \(([0-9\.]+\))$ ]]; then
+if [[ $(who am i) =~ \((\:0\))$ ]]; then
 	/bin/bash
 	exit;
 fi
